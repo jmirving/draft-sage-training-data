@@ -7,6 +7,13 @@ and required wrappers for git and Beads commands.
 - This repo is a static data host for Draft Sage UIs.
 - Only data artifacts and minimal documentation should live here.
 
+## Data Update Process (Training UI)
+1. Publish a single `experiment-index.json` under `public/training/`.
+2. Copy per-run `summary.json` into `public/training/runs/<run_id>/summary.json`.
+3. Ensure `summary_path` in the index points to `runs/<run_id>/summary.json`.
+4. Strip local filesystem paths from dataset metadata before publishing.
+5. Commit + push; Render auto-deploys.
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.

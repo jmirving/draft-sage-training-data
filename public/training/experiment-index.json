@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-02-08T15:07:26Z",
+  "baseline_to_beat_run_id": "20260117_002640",
+  "baseline_updated_at": "2026-01-17T03:42:53Z",
+  "generated_at": "2026-02-08T15:15:24Z",
   "runs": [
     {
       "category": "uncategorized",
       "dataset": {
-        "input_dir": "/home/jirving/projects/lol/draft-sage-training/../.tmp/prodata-2025-clean",
         "label": "prodata-2025-clean"
       },
       "display_name": "20260208_145858",
@@ -19,7 +20,6 @@
     {
       "category": "uncategorized",
       "dataset": {
-        "input_dir": "/home/jirving/projects/lol/draft-sage-training/../.tmp/prodata-2025-clean",
         "label": "prodata-2025-clean"
       },
       "display_name": "20260208_150458",
@@ -32,5 +32,6 @@
       "summary_path": "runs/20260208_150458/summary.json"
     }
   ],
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "true_baseline_run_id": "20260116_195312"
 }

@@ -19,6 +19,9 @@ This repo is a static data host for Draft Sage UIs.
 - Render auto-deploys to make new data available.
 - The training UI defaults to this host, so updates show up after deploy.
 
+Recommended: use `draft-sage-training/scripts/publish_training_data.py` to publish
+sanitized artifacts (including inspection samples) into `public/training/`.
+
 ### Minimum required files
 - `public/training/experiment-index.json`
 - `public/training/runs/<run_id>/summary.json` for each run referenced in the index

@@ -1,59 +1,439 @@
 {
-  "schema_version": "1.0",
-  "generated_at": "2026-01-12T09:02:00Z",
-  "true_baseline_run_id": "2026-01-11T18-00-12Z_baseline_2025_clean",
-  "baseline_to_beat_run_id": "2026-01-12T08-42-55Z_weight_priors_roll",
-  "baseline_updated_at": "2026-01-12T09:02:00Z",
+  "baseline_to_beat_run_id": "20260117_002640",
+  "baseline_updated_at": "2026-01-17T03:42:53Z",
+  "generated_at": "2026-01-16T16:49:35Z",
   "runs": [
     {
-      "run_id": "2026-01-11T18-00-12Z_baseline_2025_clean",
-      "display_name": "Baseline 2025 clean",
-      "status": "completed",
-      "category": "baseline",
-      "group_id": "baseline",
-      "variant_label": "No priors",
+      "category": "pb-role-weights-matrix",
       "dataset": {
-        "source": "lol-pro-data-processor",
-        "window": {
-          "start": "2025-01-01",
-          "end": "2025-12-31"
+        "champion_priors": {
+          "strength": 0.1,
+          "time_buckets": 1
         },
-        "manifest_path": "manifests/2025-clean.json"
-      },
-      "metrics": {
-        "accuracy": 0.186,
-        "loss": 1.19,
-        "top_k": {
-          "k": 3,
-          "accuracy": 0.42
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.1
         }
       },
-      "summary_path": "2026-01-11T18-00-12Z_baseline_2025_clean/summary.json"
+      "display_name": "Clean 2025 + PB 0.1 + Role 0.1",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.186441647597254,
+        "loss": 3.1950273239198506
+      },
+      "run_id": "20260115_231458",
+      "status": "completed",
+      "summary_path": "runs/20260115_231458/summary.json",
+      "variant_label": "PB 0.1 / Role 0.1"
     },
     {
-      "run_id": "2026-01-12T08-42-55Z_weight_priors_roll",
-      "display_name": "Weight priors + optional inputs",
-      "status": "running",
-      "category": "priors",
-      "group_id": "priors",
-      "variant_label": "Weight priors roll",
+      "category": "pb-role-weights-matrix",
       "dataset": {
-        "source": "lol-pro-data-processor",
-        "window": {
-          "start": "2024-07-01",
-          "end": "2025-12-31"
+        "champion_priors": {
+          "strength": 0.1,
+          "time_buckets": 1
         },
-        "manifest_path": "manifests/rolling-window.json"
-      },
-      "metrics": {
-        "accuracy": 0.182,
-        "loss": 1.27,
-        "top_k": {
-          "k": 3,
-          "accuracy": 0.39
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.25
         }
       },
-      "summary_path": "2026-01-12T08-42-55Z_weight_priors_roll/summary.json"
+      "display_name": "Clean 2025 + PB 0.1 + Role 0.25",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18409610983981695,
+        "loss": 3.1803966778070007
+      },
+      "run_id": "20260115_232831",
+      "status": "completed",
+      "summary_path": "runs/20260115_232831/summary.json",
+      "variant_label": "PB 0.1 / Role 0.25"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.1,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.1 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18421052631578946,
+        "loss": 3.1847859945767976
+      },
+      "run_id": "20260115_234255",
+      "status": "completed",
+      "summary_path": "runs/20260115_234255/summary.json",
+      "variant_label": "PB 0.1 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.25,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.1
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.25 + Role 0.1",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.1868421052631579,
+        "loss": 3.1905286907060053
+      },
+      "run_id": "20260115_235642",
+      "status": "completed",
+      "summary_path": "runs/20260115_235642/summary.json",
+      "variant_label": "PB 0.25 / Role 0.1"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.25,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.25
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.25 + Role 0.25",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18255148741418764,
+        "loss": 3.1895342378773246
+      },
+      "run_id": "20260116_001102",
+      "status": "completed",
+      "summary_path": "runs/20260116_001102/summary.json",
+      "variant_label": "PB 0.25 / Role 0.25"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.25,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.25 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.1831807780320366,
+        "loss": 3.203586024819606
+      },
+      "run_id": "20260116_002250",
+      "status": "completed",
+      "summary_path": "runs/20260116_002250/summary.json",
+      "variant_label": "PB 0.25 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.1
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.1",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.1841533180778032,
+        "loss": 3.195359403951948
+      },
+      "run_id": "20260116_003359",
+      "status": "completed",
+      "summary_path": "runs/20260116_003359/summary.json",
+      "variant_label": "PB 0.5 / Role 0.1"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.25
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.25",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18552631578947368,
+        "loss": 3.1977081954806117
+      },
+      "run_id": "20260116_004446",
+      "status": "completed",
+      "summary_path": "runs/20260116_004446/summary.json",
+      "variant_label": "PB 0.5 / Role 0.25"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18718535469107553,
+        "loss": 3.19551352892323
+      },
+      "run_id": "20260116_005718",
+      "status": "completed",
+      "summary_path": "runs/20260116_005718/summary.json",
+      "variant_label": "PB 0.5 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.35,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.35
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.35 + Role 0.35",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18403890160183067,
+        "loss": 3.1850496975115927
+      },
+      "run_id": "20260116_014224",
+      "status": "completed",
+      "summary_path": "runs/20260116_014224/summary.json",
+      "variant_label": "PB 0.35 / Role 0.35"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.35,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.35 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18409610983981695,
+        "loss": 3.1888182838830477
+      },
+      "run_id": "20260116_015405",
+      "status": "completed",
+      "summary_path": "runs/20260116_015405/summary.json",
+      "variant_label": "PB 0.35 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.35,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.75
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.35 + Role 0.75",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.1858695652173913,
+        "loss": 3.1926923754882117
+      },
+      "run_id": "20260116_020728",
+      "status": "completed",
+      "summary_path": "runs/20260116_020728/summary.json",
+      "variant_label": "PB 0.35 / Role 0.75"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.35
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.35",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.1809496567505721,
+        "loss": 3.199738169283056
+      },
+      "run_id": "20260116_022050",
+      "status": "completed",
+      "summary_path": "runs/20260116_022050/summary.json",
+      "variant_label": "PB 0.5 / Role 0.35"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18718535469107553,
+        "loss": 3.19551352892323
+      },
+      "run_id": "20260116_023522",
+      "status": "completed",
+      "summary_path": "runs/20260116_023522/summary.json",
+      "variant_label": "PB 0.5 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.5,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.75
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.5 + Role 0.75",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18237986270022882,
+        "loss": 3.2081670549713497
+      },
+      "run_id": "20260116_024758",
+      "status": "completed",
+      "summary_path": "runs/20260116_024758/summary.json",
+      "variant_label": "PB 0.5 / Role 0.75"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.75,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.35
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.75 + Role 0.35",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18678489702517162,
+        "loss": 3.1916781794654385
+      },
+      "run_id": "20260116_030051",
+      "status": "completed",
+      "summary_path": "runs/20260116_030051/summary.json",
+      "variant_label": "PB 0.75 / Role 0.35"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.75,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.5
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.75 + Role 0.5",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18638443935926774,
+        "loss": 3.183211202813241
+      },
+      "run_id": "20260116_031405",
+      "status": "completed",
+      "summary_path": "runs/20260116_031405/summary.json",
+      "variant_label": "PB 0.75 / Role 0.5"
+    },
+    {
+      "category": "pb-role-weights-matrix",
+      "dataset": {
+        "champion_priors": {
+          "strength": 0.75,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 (seriesid)",
+        "role_priors": {
+          "strength": 0.75
+        }
+      },
+      "display_name": "Clean 2025 + PB 0.75 + Role 0.75",
+      "group_id": "pb-role-weights-matrix",
+      "metrics": {
+        "accuracy": 0.18581235697940504,
+        "loss": 3.201520230260148
+      },
+      "run_id": "20260116_032716",
+      "status": "completed",
+      "summary_path": "runs/20260116_032716/summary.json",
+      "variant_label": "PB 0.75 / Role 0.75"
+    },
+    {
+      "category": "baseline",
+      "dataset": {
+        "label": "Clean 2025 (seriesid)"
+      },
+      "display_name": "Clean 2025 baseline (seriesid)",
+      "group_id": "baseline",
+      "metrics": {
+        "accuracy": 0.18956336528221512,
+        "loss": 3.1897502508866538
+      },
+      "run_id": "20260116_164047",
+      "status": "completed",
+      "summary_path": "runs/20260116_164047/summary.json",
+      "variant_label": "No priors"
     }
-  ]
+  ],
+  "schema_version": "1.0",
+  "true_baseline_run_id": "20260116_195312"
 }

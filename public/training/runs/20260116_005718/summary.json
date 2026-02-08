@@ -13,6 +13,8 @@
   },
   "description": "Champion PB weights 0.5 + champion role weights 0.5 (seriesid split).",
   "display_name": "Clean 2025 + PB 0.5 + Role 0.5",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
   "metrics": {
     "accuracy": 0.18718535469107553,
     "best_val_loss": 3.128250277279514,
@@ -20,8 +22,7 @@
   },
   "paths": {
     "config": "config.json",
-    "metrics": "metrics.json",
-    "model": "model.pth"
+    "metrics": "metrics.json"
   },
   "progress": {
     "epoch": 20,

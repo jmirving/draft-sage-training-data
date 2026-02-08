@@ -1,0 +1,15 @@
+{
+  "batch_size": 32,
+  "champion_mapping_path": "/home/jirving/projects/lol/lol-ddragon-snapshot-cron/data/ddragon/artifacts/champion-mapping/latest.json",
+  "epochs": 20,
+  "input_dir": "/home/jirving/projects/lol/.tmp/prodata-2025-clean",
+  "learning_rate": 0.001,
+  "log_level": "INFO",
+  "output_dir": "/home/jirving/projects/lol/.tmp/training-clean-2025-ep20/exp-league-team-features",
+  "patch_window": null,
+  "patches": null,
+  "seed": 42,
+  "test_split": 0.1,
+  "train_split": 0.8,
+  "val_split": 0.1
+}

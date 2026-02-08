@@ -1,0 +1,36 @@
+{
+  "category": "role-priors",
+  "created_at": "2026-01-12T17:43:58Z",
+  "dataset": {
+    "label": "Clean 2025",
+    "role_priors": {
+      "strength": 0.25
+    }
+  },
+  "description": "Role priors only (player roles) vs baseline.",
+  "display_name": "Clean 2025 + role priors (strength 0.25)",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
+  "metrics": {
+    "accuracy": 0.19040386995162562,
+    "best_val_loss": 3.1206944481932,
+    "loss": 3.1538311178735694
+  },
+  "paths": {
+    "config": "config.json",
+    "metrics": "metrics.json"
+  },
+  "progress": {
+    "epoch": 20,
+    "epochs": 20
+  },
+  "run_id": "20260112_174358",
+  "samples": {
+    "test": 17778,
+    "train": 142224,
+    "val": 17778
+  },
+  "schema_version": "1.0",
+  "status": "completed",
+  "updated_at": "2026-01-12T17:55:21Z"
+}

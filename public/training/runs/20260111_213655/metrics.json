@@ -1,0 +1,8 @@
+{
+  "best_val_loss": 3.218437615058405,
+  "test_accuracy": 0.17988525143435707,
+  "test_loss": 3.243774072300616,
+  "test_samples": 17778,
+  "train_samples": 142224,
+  "val_samples": 17778
+}

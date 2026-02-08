@@ -1,0 +1,23 @@
+{
+  "best_val_loss": 3.1250299631262854,
+  "champion_priors_time_buckets": 1,
+  "feature_set": [
+    "draft_sequence",
+    "patch",
+    "action_type",
+    "side",
+    "event_index",
+    "league",
+    "team",
+    "champion_priors",
+    "role_priors"
+  ],
+  "num_leagues": 42,
+  "num_teams": 370,
+  "role_priors_strength": 0.5,
+  "test_accuracy": 0.19029137135785804,
+  "test_loss": 3.148618030033523,
+  "test_samples": 17778,
+  "train_samples": 142224,
+  "val_samples": 17778
+}

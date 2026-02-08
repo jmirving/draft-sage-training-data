@@ -6,6 +6,8 @@
   },
   "description": "Clean 2025 dataset, seriesid split.",
   "display_name": "Clean 2025 baseline (seriesid)",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
   "metrics": {
     "accuracy": 0.18956336528221512,
     "best_val_loss": 3.098083579428842,
@@ -13,8 +15,7 @@
   },
   "paths": {
     "config": "config.json",
-    "metrics": "metrics.json",
-    "model": "model.pth"
+    "metrics": "metrics.json"
   },
   "progress": {
     "epoch": 20,

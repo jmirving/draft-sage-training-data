@@ -1,0 +1,20 @@
+{
+  "batch_size": 32,
+  "category": "baseline",
+  "champion_mapping_path": "/home/jirving/projects/lol/lol-ddragon-snapshot-cron/data/ddragon/artifacts/champion-mapping/latest.json",
+  "dataset_label": "Clean 2025",
+  "description": "Clean 2025 dataset, 20 epochs.",
+  "display_name": "Clean 2025 baseline",
+  "epochs": 20,
+  "input_dir": "/home/jirving/projects/lol/.tmp/prodata-2025-clean",
+  "learning_rate": 0.001,
+  "log_level": "INFO",
+  "output_dir": "/home/jirving/projects/lol/.tmp/training-clean-2025-ep20",
+  "patch_window": null,
+  "patches": null,
+  "seed": 42,
+  "test_split": 0.1,
+  "train_split": 0.8,
+  "update_index": true,
+  "val_split": 0.1
+}

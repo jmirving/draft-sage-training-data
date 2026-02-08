@@ -13,6 +13,8 @@
   },
   "description": "Champion PB weights 0.35 + champion role weights 0.35 (seriesid split, tight sweep).",
   "display_name": "Clean 2025 + PB 0.35 + Role 0.35",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
   "metrics": {
     "accuracy": 0.18403890160183067,
     "best_val_loss": 3.10774319577174,
@@ -20,8 +22,7 @@
   },
   "paths": {
     "config": "config.json",
-    "metrics": "metrics.json",
-    "model": "model.pth"
+    "metrics": "metrics.json"
   },
   "progress": {
     "epoch": 20,

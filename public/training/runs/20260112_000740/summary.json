@@ -1,0 +1,36 @@
+{
+  "category": "priors-no-league-team",
+  "created_at": "2026-01-12T00:07:40Z",
+  "dataset": {
+    "champion_priors": {
+      "strength": 4.0
+    },
+    "label": "Clean 2025"
+  },
+  "description": null,
+  "display_name": "Clean 2025 + priors (strength 4.0, no league/team)",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
+  "metrics": {
+    "accuracy": 0.17982900213747327,
+    "best_val_loss": 3.189965388328909,
+    "loss": 3.2352692399093574
+  },
+  "paths": {
+    "config": "config.json",
+    "metrics": "metrics.json"
+  },
+  "progress": {
+    "epoch": 20,
+    "epochs": 20
+  },
+  "run_id": "20260112_000740",
+  "samples": {
+    "test": 17778,
+    "train": 142224,
+    "val": 17778
+  },
+  "schema_version": "1.0",
+  "status": "completed",
+  "updated_at": "2026-01-12T00:18:20Z"
+}

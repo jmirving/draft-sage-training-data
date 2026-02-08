@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-08T15:06:35Z",
+  "generated_at": "2026-02-08T15:07:26Z",
   "runs": [
     {
       "category": "uncategorized",
@@ -24,11 +24,11 @@
       },
       "display_name": "20260208_150458",
       "metrics": {
-        "accuracy": null,
-        "loss": null
+        "accuracy": 0.1390368003786534,
+        "loss": 3.4758831161181734
       },
       "run_id": "20260208_150458",
-      "status": "running",
+      "status": "completed",
       "summary_path": "runs/20260208_150458/summary.json"
     }
   ],

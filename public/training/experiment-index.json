@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-08T15:02:23Z",
+  "generated_at": "2026-02-08T15:06:35Z",
   "runs": [
     {
       "category": "uncategorized",
@@ -15,6 +15,21 @@
       "run_id": "20260208_145858",
       "status": "completed",
       "summary_path": "runs/20260208_145858/summary.json"
+    },
+    {
+      "category": "uncategorized",
+      "dataset": {
+        "input_dir": "/home/jirving/projects/lol/draft-sage-training/../.tmp/prodata-2025-clean",
+        "label": "prodata-2025-clean"
+      },
+      "display_name": "20260208_150458",
+      "metrics": {
+        "accuracy": null,
+        "loss": null
+      },
+      "run_id": "20260208_150458",
+      "status": "running",
+      "summary_path": "runs/20260208_150458/summary.json"
     }
   ],
   "schema_version": "1.0"

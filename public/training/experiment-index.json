@@ -1,7 +1,7 @@
 {
   "baseline_to_beat_run_id": "20260117_002640",
   "baseline_updated_at": "2026-01-17T03:42:53Z",
-  "generated_at": "2026-02-08T15:16:58Z",
+  "generated_at": "2026-02-11T22:12:47Z",
   "runs": [
     {
       "category": "action-side-event",
@@ -1044,6 +1044,20 @@
       "run_id": "20260208_150458",
       "status": "completed",
       "summary_path": "runs/20260208_150458/summary.json"
+    },
+    {
+      "category": "production",
+      "dataset": {
+        "label": "prodata-processed"
+      },
+      "display_name": "prod-e2e-20260211",
+      "metrics": {
+        "accuracy": null,
+        "loss": null
+      },
+      "run_id": "20260211_221100",
+      "status": "running",
+      "summary_path": "runs/20260211_221100/summary.json"
     }
   ],
   "schema_version": "1.0",

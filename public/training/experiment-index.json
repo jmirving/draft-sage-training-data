@@ -1,23 +1,8 @@
 {
-  "baseline_to_beat_run_id": "20260211_221100",
+  "baseline_to_beat_run_id": null,
   "baseline_updated_at": null,
-  "generated_at": "2026-02-12T02:29:38.195Z",
-  "runs": [
-    {
-      "category": "production",
-      "dataset": {
-        "label": "prodata-processed"
-      },
-      "display_name": "prod-e2e-20260211",
-      "metrics": {
-        "accuracy": 0.1881425789211468,
-        "loss": 3.210541784590569
-      },
-      "run_id": "20260211_221100",
-      "status": "completed",
-      "summary_path": "runs/20260211_221100/summary.json"
-    }
-  ],
+  "generated_at": "2026-02-12T17:10:00Z",
+  "runs": [],
   "schema_version": "1.0",
   "true_baseline_run_id": null
 }

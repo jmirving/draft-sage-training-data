@@ -1,8 +1,20 @@
 {
-  "baseline_to_beat_run_id": null,
-  "baseline_updated_at": null,
-  "generated_at": "2026-02-12T17:10:00Z",
-  "runs": [],
-  "schema_version": "1.0",
-  "true_baseline_run_id": null
+  "generated_at": "2026-02-12T20:46:31Z",
+  "runs": [
+    {
+      "category": "baseline",
+      "dataset": {
+        "label": "Clean 2025"
+      },
+      "display_name": "Baseline",
+      "metrics": {
+        "accuracy": 0.1782608695652174,
+        "loss": 3.2542074358659425
+      },
+      "run_id": "20260212_203719",
+      "status": "completed",
+      "summary_path": "runs/20260212_203719/summary.json"
+    }
+  ],
+  "schema_version": "1.0"
 }

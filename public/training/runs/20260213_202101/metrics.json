@@ -1,0 +1,340 @@
+{
+  "best_val_loss": 3.1509807480118353,
+  "champion_priors_time_buckets": 1,
+  "feature_set": [
+    "draft_sequence",
+    "patch",
+    "action_type",
+    "side",
+    "event_index"
+  ],
+  "num_leagues": 1,
+  "num_teams": 1,
+  "per_slot_accuracy": [
+    {
+      "accuracy": 0.10439024390243902,
+      "canonical": {
+        "num": 1,
+        "team": "team_1",
+        "type": "ban"
+      },
+      "correct": 107,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 1,
+      "slot_id": "slot_01",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.30341463414634146,
+      "canonical": {
+        "num": 1,
+        "team": "team_2",
+        "type": "ban"
+      },
+      "correct": 311,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 2,
+      "slot_id": "slot_02",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.10048780487804879,
+      "canonical": {
+        "num": 2,
+        "team": "team_1",
+        "type": "ban"
+      },
+      "correct": 103,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 3,
+      "slot_id": "slot_03",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.2634146341463415,
+      "canonical": {
+        "num": 2,
+        "team": "team_2",
+        "type": "ban"
+      },
+      "correct": 270,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 4,
+      "slot_id": "slot_04",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.10829268292682927,
+      "canonical": {
+        "num": 3,
+        "team": "team_1",
+        "type": "ban"
+      },
+      "correct": 111,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 5,
+      "slot_id": "slot_05",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.24292682926829268,
+      "canonical": {
+        "num": 3,
+        "team": "team_2",
+        "type": "ban"
+      },
+      "correct": 249,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 6,
+      "slot_id": "slot_06",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.31121951219512195,
+      "canonical": {
+        "num": 1,
+        "team": "team_1",
+        "type": "pick"
+      },
+      "correct": 319,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 7,
+      "slot_id": "slot_07",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.20682926829268292,
+      "canonical": {
+        "num": 1,
+        "team": "team_2",
+        "type": "pick"
+      },
+      "correct": 212,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 8,
+      "slot_id": "slot_08",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.2126829268292683,
+      "canonical": {
+        "num": 2,
+        "team": "team_2",
+        "type": "pick"
+      },
+      "correct": 218,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 9,
+      "slot_id": "slot_09",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.17170731707317075,
+      "canonical": {
+        "num": 2,
+        "team": "team_1",
+        "type": "pick"
+      },
+      "correct": 176,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 10,
+      "slot_id": "slot_10",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.17170731707317075,
+      "canonical": {
+        "num": 3,
+        "team": "team_1",
+        "type": "pick"
+      },
+      "correct": 176,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 11,
+      "slot_id": "slot_11",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.16195121951219513,
+      "canonical": {
+        "num": 3,
+        "team": "team_2",
+        "type": "pick"
+      },
+      "correct": 166,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 12,
+      "slot_id": "slot_12",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.13073170731707318,
+      "canonical": {
+        "num": 4,
+        "team": "team_2",
+        "type": "ban"
+      },
+      "correct": 134,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 13,
+      "slot_id": "slot_13",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.13853658536585367,
+      "canonical": {
+        "num": 4,
+        "team": "team_1",
+        "type": "ban"
+      },
+      "correct": 142,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 14,
+      "slot_id": "slot_14",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.11707317073170732,
+      "canonical": {
+        "num": 5,
+        "team": "team_2",
+        "type": "ban"
+      },
+      "correct": 120,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 15,
+      "slot_id": "slot_15",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.1533203125,
+      "canonical": {
+        "num": 5,
+        "team": "team_1",
+        "type": "ban"
+      },
+      "correct": 157,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 20
+      },
+      "slot": 16,
+      "slot_id": "slot_16",
+      "total": 1024
+    },
+    {
+      "accuracy": 0.17268292682926828,
+      "canonical": {
+        "num": 4,
+        "team": "team_2",
+        "type": "pick"
+      },
+      "correct": 177,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 17,
+      "slot_id": "slot_17",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.144390243902439,
+      "canonical": {
+        "num": 4,
+        "team": "team_1",
+        "type": "pick"
+      },
+      "correct": 148,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 18,
+      "slot_id": "slot_18",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.24682926829268292,
+      "canonical": {
+        "num": 5,
+        "team": "team_1",
+        "type": "pick"
+      },
+      "correct": 253,
+      "observed_side_counts": {
+        "blue": 1004,
+        "red": 21
+      },
+      "slot": 19,
+      "slot_id": "slot_19",
+      "total": 1025
+    },
+    {
+      "accuracy": 0.17560975609756097,
+      "canonical": {
+        "num": 5,
+        "team": "team_2",
+        "type": "pick"
+      },
+      "correct": 180,
+      "observed_side_counts": {
+        "blue": 21,
+        "red": 1004
+      },
+      "slot": 20,
+      "slot_id": "slot_20",
+      "total": 1025
+    }
+  ],
+  "test_accuracy": 0.18191131274696326,
+  "test_loss": 3.178172646186281,
+  "test_samples": 20499,
+  "train_samples": 169115,
+  "val_samples": 20180
+}

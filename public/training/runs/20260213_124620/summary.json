@@ -1,0 +1,356 @@
+{
+  "category": "embedding-ablation",
+  "created_at": "2026-02-13T12:46:19Z",
+  "dataset": {
+    "label": "Clean 2025 + Jan 2026"
+  },
+  "description": "Feature matrix ablation: league on team off dfbias off roledist off",
+  "display_name": "Feature matrix: league on team off dfbias off roledist off",
+  "inspection_error": null,
+  "inspection_status": "available",
+  "metrics": {
+    "accuracy": 0.18674081662520123,
+    "best_val_loss": 3.167810377719474,
+    "loss": 3.188677272261026,
+    "per_slot_accuracy": [
+      {
+        "accuracy": 0.08878048780487804,
+        "canonical": {
+          "num": 1,
+          "team": "team_1",
+          "type": "ban"
+        },
+        "correct": 91,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 1,
+        "slot_id": "slot_01",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.34243902439024393,
+        "canonical": {
+          "num": 1,
+          "team": "team_2",
+          "type": "ban"
+        },
+        "correct": 351,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 2,
+        "slot_id": "slot_02",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.1024390243902439,
+        "canonical": {
+          "num": 2,
+          "team": "team_1",
+          "type": "ban"
+        },
+        "correct": 105,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 3,
+        "slot_id": "slot_03",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.27902439024390246,
+        "canonical": {
+          "num": 2,
+          "team": "team_2",
+          "type": "ban"
+        },
+        "correct": 286,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 4,
+        "slot_id": "slot_04",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.11219512195121951,
+        "canonical": {
+          "num": 3,
+          "team": "team_1",
+          "type": "ban"
+        },
+        "correct": 115,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 5,
+        "slot_id": "slot_05",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.2760975609756098,
+        "canonical": {
+          "num": 3,
+          "team": "team_2",
+          "type": "ban"
+        },
+        "correct": 283,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 6,
+        "slot_id": "slot_06",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.3092682926829268,
+        "canonical": {
+          "num": 1,
+          "team": "team_1",
+          "type": "pick"
+        },
+        "correct": 317,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 7,
+        "slot_id": "slot_07",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.18829268292682927,
+        "canonical": {
+          "num": 1,
+          "team": "team_2",
+          "type": "pick"
+        },
+        "correct": 193,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 8,
+        "slot_id": "slot_08",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.2029268292682927,
+        "canonical": {
+          "num": 2,
+          "team": "team_2",
+          "type": "pick"
+        },
+        "correct": 208,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 9,
+        "slot_id": "slot_09",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.17365853658536584,
+        "canonical": {
+          "num": 2,
+          "team": "team_1",
+          "type": "pick"
+        },
+        "correct": 178,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 10,
+        "slot_id": "slot_10",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.17853658536585365,
+        "canonical": {
+          "num": 3,
+          "team": "team_1",
+          "type": "pick"
+        },
+        "correct": 183,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 11,
+        "slot_id": "slot_11",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.15609756097560976,
+        "canonical": {
+          "num": 3,
+          "team": "team_2",
+          "type": "pick"
+        },
+        "correct": 160,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 12,
+        "slot_id": "slot_12",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.14146341463414633,
+        "canonical": {
+          "num": 4,
+          "team": "team_2",
+          "type": "ban"
+        },
+        "correct": 145,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 13,
+        "slot_id": "slot_13",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.1326829268292683,
+        "canonical": {
+          "num": 4,
+          "team": "team_1",
+          "type": "ban"
+        },
+        "correct": 136,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 14,
+        "slot_id": "slot_14",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.15024390243902438,
+        "canonical": {
+          "num": 5,
+          "team": "team_2",
+          "type": "ban"
+        },
+        "correct": 154,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 15,
+        "slot_id": "slot_15",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.150390625,
+        "canonical": {
+          "num": 5,
+          "team": "team_1",
+          "type": "ban"
+        },
+        "correct": 154,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 20
+        },
+        "slot": 16,
+        "slot_id": "slot_16",
+        "total": 1024
+      },
+      {
+        "accuracy": 0.18536585365853658,
+        "canonical": {
+          "num": 4,
+          "team": "team_2",
+          "type": "pick"
+        },
+        "correct": 190,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 17,
+        "slot_id": "slot_17",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.15804878048780488,
+        "canonical": {
+          "num": 4,
+          "team": "team_1",
+          "type": "pick"
+        },
+        "correct": 162,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 18,
+        "slot_id": "slot_18",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.22829268292682928,
+        "canonical": {
+          "num": 5,
+          "team": "team_1",
+          "type": "pick"
+        },
+        "correct": 234,
+        "observed_side_counts": {
+          "blue": 1004,
+          "red": 21
+        },
+        "slot": 19,
+        "slot_id": "slot_19",
+        "total": 1025
+      },
+      {
+        "accuracy": 0.17853658536585365,
+        "canonical": {
+          "num": 5,
+          "team": "team_2",
+          "type": "pick"
+        },
+        "correct": 183,
+        "observed_side_counts": {
+          "blue": 21,
+          "red": 1004
+        },
+        "slot": 20,
+        "slot_id": "slot_20",
+        "total": 1025
+      }
+    ]
+  },
+  "paths": {
+    "config": "config.json",
+    "inspection_samples": "inspection-samples.json",
+    "metrics": "metrics.json"
+  },
+  "progress": {
+    "epoch": 20,
+    "epochs": 20
+  },
+  "run_id": "20260213_124620",
+  "samples": {
+    "test": 20499,
+    "train": 169115,
+    "val": 20180
+  },
+  "schema_version": "1.0",
+  "status": "completed",
+  "updated_at": "2026-02-13T13:01:07Z"
+}

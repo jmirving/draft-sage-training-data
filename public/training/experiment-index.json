@@ -1,23 +1,62 @@
 {
-  "baseline_to_beat_run_id": "20260213_000517",
-  "baseline_updated_at": "2026-02-13T00:19:21Z",
-  "generated_at": "2026-02-13T00:19:21Z",
+  "generated_at": "2026-02-13T13:20:16Z",
   "runs": [
     {
-      "category": "baseline",
+      "category": "embedding-ablation",
       "dataset": {
         "label": "Clean 2025 + Jan 2026"
       },
-      "display_name": "Baseline",
+      "display_name": "Feature matrix: league off team off dfbias off roledist off",
       "metrics": {
-        "accuracy": 0.1791794721693741,
-        "loss": 3.2492015395261196
+        "accuracy": 0.18205766134933413,
+        "loss": 3.2463349399626162
       },
-      "run_id": "20260213_000517",
+      "run_id": "20260213_124618",
       "status": "completed",
-      "summary_path": "runs/20260213_000517/summary.json"
+      "summary_path": "runs/20260213_124618/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league off team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18527733060149276,
+        "loss": 3.214566136299169
+      },
+      "run_id": "20260213_124619",
+      "status": "completed",
+      "summary_path": "runs/20260213_124619/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18674081662520123,
+        "loss": 3.188677272261026
+      },
+      "run_id": "20260213_124620",
+      "status": "completed",
+      "summary_path": "runs/20260213_124620/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18713107956485683,
+        "loss": 3.1848630905151367
+      },
+      "run_id": "20260213_130113",
+      "status": "completed",
+      "summary_path": "runs/20260213_130113/summary.json"
     }
   ],
-  "schema_version": "1.0",
-  "true_baseline_run_id": "20260213_000517"
+  "schema_version": "1.0"
 }

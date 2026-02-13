@@ -2,6 +2,62 @@
   "generated_at": "2026-02-13T21:32:33Z",
   "runs": [
     {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league off team off dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18205766134933413,
+        "loss": 3.2463349399626162
+      },
+      "run_id": "20260213_124618",
+      "status": "completed",
+      "summary_path": "runs/20260213_124618/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league off team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18527733060149276,
+        "loss": 3.214566136299169
+      },
+      "run_id": "20260213_124619",
+      "status": "completed",
+      "summary_path": "runs/20260213_124619/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18674081662520123,
+        "loss": 3.188677272261026
+      },
+      "run_id": "20260213_124620",
+      "status": "completed",
+      "summary_path": "runs/20260213_124620/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18713107956485683,
+        "loss": 3.1848630905151367
+      },
+      "run_id": "20260213_130113",
+      "status": "completed",
+      "summary_path": "runs/20260213_130113/summary.json"
+    },
+    {
       "category": "embedding-ablation-with-champion-eligibility",
       "dataset": {
         "champion_eligibility": {},

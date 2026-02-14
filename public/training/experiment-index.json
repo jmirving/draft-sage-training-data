@@ -1,59 +1,203 @@
 {
-  "generated_at": "2026-02-14T20:29:56Z",
+  "generated_at": "2026-02-14T22:34:27Z",
   "runs": [
     {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
       "dataset": {
         "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.2,
+          "time_buckets": 1
+        },
         "label": "Clean 2025 + Jan 2026",
         "role_priors": {
           "strength": 0.15
         }
       },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p15",
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p2 rdbstr 0p15",
       "metrics": {
-        "accuracy": 0.1903995316844724,
-        "loss": 3.1276602205731754
+        "accuracy": 0.18547246207132057,
+        "loss": 3.122560551497568
       },
-      "run_id": "20260214_193420",
+      "run_id": "20260214_203006",
       "status": "completed",
-      "summary_path": "runs/20260214_193420/summary.json"
+      "summary_path": "runs/20260214_203006/summary.json"
     },
     {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
       "dataset": {
         "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.2,
+          "time_buckets": 1
+        },
         "label": "Clean 2025 + Jan 2026",
         "role_priors": {
           "strength": 0.3
         }
       },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p3",
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p2 rdbstr 0p3",
       "metrics": {
-        "accuracy": 0.18508219913166496,
-        "loss": 3.1243388942920847
+        "accuracy": 0.18708229669739987,
+        "loss": 3.1237872686475376
       },
-      "run_id": "20260214_195259",
+      "run_id": "20260214_204623",
       "status": "completed",
-      "summary_path": "runs/20260214_195259/summary.json"
+      "summary_path": "runs/20260214_204623/summary.json"
     },
     {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
       "dataset": {
         "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.2,
+          "time_buckets": 1
+        },
         "label": "Clean 2025 + Jan 2026",
         "role_priors": {
           "strength": 0.45
         }
       },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p45",
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p2 rdbstr 0p45",
       "metrics": {
-        "accuracy": 0.18557002780623444,
-        "loss": 3.121901604203092
+        "accuracy": 0.18805795404653886,
+        "loss": 3.106790488856073
       },
-      "run_id": "20260214_201110",
+      "run_id": "20260214_210019",
       "status": "completed",
-      "summary_path": "runs/20260214_201110/summary.json"
+      "summary_path": "runs/20260214_210019/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.15
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p15",
+      "metrics": {
+        "accuracy": 0.18991170300990293,
+        "loss": 3.114531870193303
+      },
+      "run_id": "20260214_211356",
+      "status": "completed",
+      "summary_path": "runs/20260214_211356/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.3
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p3",
+      "metrics": {
+        "accuracy": 0.18630177081808869,
+        "loss": 3.119540502798167
+      },
+      "run_id": "20260214_212755",
+      "status": "completed",
+      "summary_path": "runs/20260214_212755/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.45
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p45",
+      "metrics": {
+        "accuracy": 0.1864969022879165,
+        "loss": 3.124660616917841
+      },
+      "run_id": "20260214_214141",
+      "status": "completed",
+      "summary_path": "runs/20260214_214141/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.6,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.15
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p6 rdbstr 0p15",
+      "metrics": {
+        "accuracy": 0.19064344602175715,
+        "loss": 3.118618521973049
+      },
+      "run_id": "20260214_215519",
+      "status": "completed",
+      "summary_path": "runs/20260214_215519/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.6,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.3
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p6 rdbstr 0p3",
+      "metrics": {
+        "accuracy": 0.18410654178252597,
+        "loss": 3.1135612039967744
+      },
+      "run_id": "20260214_220830",
+      "status": "completed",
+      "summary_path": "runs/20260214_220830/summary.json"
+    },
+    {
+      "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.6,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.45
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p6 rdbstr 0p45",
+      "metrics": {
+        "accuracy": 0.1865944680228304,
+        "loss": 3.114735790050346
+      },
+      "run_id": "20260214_222136",
+      "status": "completed",
+      "summary_path": "runs/20260214_222136/summary.json"
     }
   ],
   "schema_version": "1.0"

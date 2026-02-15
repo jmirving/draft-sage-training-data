@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T16:59:46Z",
+  "generated_at": "2026-02-15T20:25:24Z",
   "runs": [
     {
       "category": "embedding-ablation",
@@ -479,6 +479,91 @@
       "run_id": "20260215_163647",
       "status": "completed",
       "summary_path": "runs/20260215_163647/summary.json"
+    },
+    {
+      "category": "weights-role-priors-corrective-low",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist off dfstr 0p4",
+      "metrics": {
+        "accuracy": 0.1906922288892141,
+        "loss": 3.1112292281551035
+      },
+      "run_id": "20260215_185308_006142_74888",
+      "status": "completed",
+      "summary_path": "runs/20260215_185308_006142_74888/summary.json"
+    },
+    {
+      "category": "weights-role-priors-corrective-low",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.05
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p05",
+      "metrics": {
+        "accuracy": 0.1852285477340358,
+        "loss": 3.1178244921420926
+      },
+      "run_id": "20260215_191052_880640_79943",
+      "status": "completed",
+      "summary_path": "runs/20260215_191052_880640_79943/summary.json"
+    },
+    {
+      "category": "weights-role-priors-corrective-low",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.1
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p1",
+      "metrics": {
+        "accuracy": 0.18596029074589004,
+        "loss": 3.1225359763444493
+      },
+      "run_id": "20260215_192823_073129_84836",
+      "status": "completed",
+      "summary_path": "runs/20260215_192823_073129_84836/summary.json"
+    },
+    {
+      "category": "weights-role-priors-corrective-low",
+      "dataset": {
+        "champion_eligibility": {},
+        "champion_priors": {
+          "strength": 0.4,
+          "time_buckets": 1
+        },
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.15
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias on roledist on dfstr 0p4 rdbstr 0p15",
+      "metrics": {
+        "accuracy": 0.18683838236011513,
+        "loss": 3.1222447584646167
+      },
+      "run_id": "20260215_194611_210649_89548",
+      "status": "completed",
+      "summary_path": "runs/20260215_194611_210649_89548/summary.json"
     }
   ],
   "schema_version": "1.0"

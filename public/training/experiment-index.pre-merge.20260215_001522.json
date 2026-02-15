@@ -1,119 +1,6 @@
 {
-  "baseline_to_beat_run_id": null,
-  "baseline_updated_at": null,
-  "generated_at": "2026-02-15T00:15:23Z",
+  "generated_at": "2026-02-14T22:34:27Z",
   "runs": [
-    {
-      "category": "Weights Sweep - Single Axis - Draft Frequency (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "champion_priors": {
-          "strength": 0.2,
-          "time_buckets": 1
-        },
-        "label": "Clean 2025 + Jan 2026"
-      },
-      "display_name": "Feature matrix: league on team off dfbias on roledist off dfstr 0p2",
-      "metrics": {
-        "accuracy": 0.18898482852822088,
-        "loss": 3.1167332930795486
-      },
-      "run_id": "20260214_181706",
-      "status": "completed",
-      "summary_path": "runs/20260214_181706/summary.json"
-    },
-    {
-      "category": "Weights Sweep - Single Axis - Draft Frequency (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "champion_priors": {
-          "strength": 0.4,
-          "time_buckets": 1
-        },
-        "label": "Clean 2025 + Jan 2026"
-      },
-      "display_name": "Feature matrix: league on team off dfbias on roledist off dfstr 0p4",
-      "metrics": {
-        "accuracy": 0.1906922288892141,
-        "loss": 3.1112292281551035
-      },
-      "run_id": "20260214_183832",
-      "status": "completed",
-      "summary_path": "runs/20260214_183832/summary.json"
-    },
-    {
-      "category": "Weights Sweep - Single Axis - Draft Frequency (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "champion_priors": {
-          "strength": 0.6,
-          "time_buckets": 1
-        },
-        "label": "Clean 2025 + Jan 2026"
-      },
-      "display_name": "Feature matrix: league on team off dfbias on roledist off dfstr 0p6",
-      "metrics": {
-        "accuracy": 0.1885945655885653,
-        "loss": 3.1187258672416673
-      },
-      "run_id": "20260214_185712",
-      "status": "completed",
-      "summary_path": "runs/20260214_185712/summary.json"
-    },
-    {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "label": "Clean 2025 + Jan 2026",
-        "role_priors": {
-          "strength": 0.15
-        }
-      },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p15",
-      "metrics": {
-        "accuracy": 0.1903995316844724,
-        "loss": 3.1276602205731754
-      },
-      "run_id": "20260214_193420",
-      "status": "completed",
-      "summary_path": "runs/20260214_193420/summary.json"
-    },
-    {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "label": "Clean 2025 + Jan 2026",
-        "role_priors": {
-          "strength": 0.3
-        }
-      },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p3",
-      "metrics": {
-        "accuracy": 0.18508219913166496,
-        "loss": 3.1243388942920847
-      },
-      "run_id": "20260214_195259",
-      "status": "completed",
-      "summary_path": "runs/20260214_195259/summary.json"
-    },
-    {
-      "category": "Weights Sweep - Single Axis - Role Distribution (Elig On, League On, Team Off)",
-      "dataset": {
-        "champion_eligibility": {},
-        "label": "Clean 2025 + Jan 2026",
-        "role_priors": {
-          "strength": 0.45
-        }
-      },
-      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p45",
-      "metrics": {
-        "accuracy": 0.18557002780623444,
-        "loss": 3.121901604203092
-      },
-      "run_id": "20260214_201110",
-      "status": "completed",
-      "summary_path": "runs/20260214_201110/summary.json"
-    },
     {
       "category": "Weights Sweep - Cross 3x3 (Elig On, League On, Team Off)",
       "dataset": {
@@ -313,6 +200,5 @@
       "summary_path": "runs/20260214_222136/summary.json"
     }
   ],
-  "schema_version": "1.0",
-  "true_baseline_run_id": null
+  "schema_version": "1.0"
 }

@@ -7,8 +7,8 @@
   },
   "description": "Embedding ablation (priors + eligibility on): Embeddings ablation: league on, team on",
   "display_name": "Embeddings ablation: league on, team on",
-  "inspection_error": "Inspection bundle pruned on publish.",
-  "inspection_status": "missing",
+  "inspection_error": null,
+  "inspection_status": "available",
   "metrics": {
     "accuracy": 0.1885945655885653,
     "best_val_loss": 3.1150605202476878,
@@ -338,6 +338,7 @@
   },
   "paths": {
     "config": "config.json",
+    "inspection_samples": "inspection-samples.json",
     "metrics": "metrics.json"
   },
   "progress": {

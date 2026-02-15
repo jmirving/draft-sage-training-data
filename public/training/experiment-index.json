@@ -1,8 +1,122 @@
 {
-  "baseline_to_beat_run_id": null,
-  "baseline_updated_at": null,
-  "generated_at": "2026-02-15T00:15:23Z",
+  "generated_at": "2026-02-15T00:32:50Z",
   "runs": [
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league off team off dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18205766134933413,
+        "loss": 3.2463349399626162
+      },
+      "run_id": "20260213_124618",
+      "status": "completed",
+      "summary_path": "runs/20260213_124618/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league off team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18527733060149276,
+        "loss": 3.214566136299169
+      },
+      "run_id": "20260213_124619",
+      "status": "completed",
+      "summary_path": "runs/20260213_124619/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18674081662520123,
+        "loss": 3.188677272261026
+      },
+      "run_id": "20260213_124620",
+      "status": "completed",
+      "summary_path": "runs/20260213_124620/summary.json"
+    },
+    {
+      "category": "embedding-ablation",
+      "dataset": {
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Feature matrix: league on team on dfbias off roledist off",
+      "metrics": {
+        "accuracy": 0.18713107956485683,
+        "loss": 3.1848630905151367
+      },
+      "run_id": "20260213_130113",
+      "status": "completed",
+      "summary_path": "runs/20260213_130113/summary.json"
+    },
+    {
+      "category": "embedding-ablation-with-champion-eligibility",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Embeddings ablation: league off, team off",
+      "metrics": {
+        "accuracy": 0.18191131274696326,
+        "loss": 3.178172646186281
+      },
+      "run_id": "20260213_202101",
+      "status": "completed",
+      "summary_path": "runs/20260213_202101/summary.json"
+    },
+    {
+      "category": "embedding-ablation-with-champion-eligibility",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Embeddings ablation: league on, team off",
+      "metrics": {
+        "accuracy": 0.18893604566076394,
+        "loss": 3.1243034286915603
+      },
+      "run_id": "20260213_203913",
+      "status": "completed",
+      "summary_path": "runs/20260213_203913/summary.json"
+    },
+    {
+      "category": "embedding-ablation-with-champion-eligibility",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Embeddings ablation: league off, team on",
+      "metrics": {
+        "accuracy": 0.18805795404653886,
+        "loss": 3.15029799138514
+      },
+      "run_id": "20260213_205710",
+      "status": "completed",
+      "summary_path": "runs/20260213_205710/summary.json"
+    },
+    {
+      "category": "embedding-ablation-with-champion-eligibility",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026"
+      },
+      "display_name": "Embeddings ablation: league on, team on",
+      "metrics": {
+        "accuracy": 0.1885945655885653,
+        "loss": 3.1246045896675954
+      },
+      "run_id": "20260213_211457",
+      "status": "completed",
+      "summary_path": "runs/20260213_211457/summary.json"
+    },
     {
       "category": "Weights Sweep - Single Axis - Draft Frequency (Elig On, League On, Team Off)",
       "dataset": {
@@ -313,6 +427,5 @@
       "summary_path": "runs/20260214_222136/summary.json"
     }
   ],
-  "schema_version": "1.0",
-  "true_baseline_run_id": null
+  "schema_version": "1.0"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T00:57:47Z",
+  "generated_at": "2026-02-15T16:59:46Z",
   "runs": [
     {
       "category": "embedding-ablation",
@@ -425,6 +425,60 @@
       "run_id": "20260214_222136",
       "status": "completed",
       "summary_path": "runs/20260214_222136/summary.json"
+    },
+    {
+      "category": "weights-role-priors-refresh",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.15
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p15",
+      "metrics": {
+        "accuracy": 0.18825308551636666,
+        "loss": 3.1192031310240678
+      },
+      "run_id": "20260215_163645",
+      "status": "completed",
+      "summary_path": "runs/20260215_163645/summary.json"
+    },
+    {
+      "category": "weights-role-priors-refresh",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.3
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p3",
+      "metrics": {
+        "accuracy": 0.18615542221571785,
+        "loss": 3.1316675885047256
+      },
+      "run_id": "20260215_163646",
+      "status": "completed",
+      "summary_path": "runs/20260215_163646/summary.json"
+    },
+    {
+      "category": "weights-role-priors-refresh",
+      "dataset": {
+        "champion_eligibility": {},
+        "label": "Clean 2025 + Jan 2026",
+        "role_priors": {
+          "strength": 0.45
+        }
+      },
+      "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p45",
+      "metrics": {
+        "accuracy": 0.18683838236011513,
+        "loss": 3.1256143405173384
+      },
+      "run_id": "20260215_163647",
+      "status": "completed",
+      "summary_path": "runs/20260215_163647/summary.json"
     }
   ],
   "schema_version": "1.0"

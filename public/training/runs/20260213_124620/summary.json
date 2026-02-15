@@ -6,8 +6,8 @@
   },
   "description": "Feature matrix ablation: league on team off dfbias off roledist off",
   "display_name": "Feature matrix: league on team off dfbias off roledist off",
-  "inspection_error": null,
-  "inspection_status": "available",
+  "inspection_error": "Inspection bundle pruned on publish.",
+  "inspection_status": "missing",
   "metrics": {
     "accuracy": 0.18674081662520123,
     "best_val_loss": 3.167810377719474,
@@ -337,7 +337,6 @@
   },
   "paths": {
     "config": "config.json",
-    "inspection_samples": "inspection-samples.json",
     "metrics": "metrics.json"
   },
   "progress": {

@@ -1,27 +1,30 @@
 {
-  "category": "embedding-ablation-with-champion-eligibility",
-  "created_at": "2026-02-13T20:57:10Z",
+  "category": "weights-role-priors-refresh",
+  "created_at": "2026-02-15T16:36:45Z",
   "dataset": {
     "champion_eligibility": {},
-    "label": "Clean 2025 + Jan 2026"
+    "label": "Clean 2025 + Jan 2026",
+    "role_priors": {
+      "strength": 0.45
+    }
   },
-  "description": "Embedding ablation (priors + eligibility on): Embeddings ablation: league off, team on",
-  "display_name": "Embeddings ablation: league off, team on",
-  "inspection_error": "Inspection bundle pruned on publish.",
-  "inspection_status": "missing",
+  "description": "Feature matrix ablation: league on team off dfbias off roledist on rdbstr 0p45",
+  "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p45",
+  "inspection_error": null,
+  "inspection_status": "available",
   "metrics": {
-    "accuracy": 0.18805795404653886,
-    "best_val_loss": 3.1342416977164484,
-    "loss": 3.15029799138514,
+    "accuracy": 0.18683838236011513,
+    "best_val_loss": 3.116756424095287,
+    "loss": 3.1256143405173384,
     "per_slot_accuracy": [
       {
-        "accuracy": 0.11219512195121951,
+        "accuracy": 0.10829268292682927,
         "canonical": {
           "num": 1,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 115,
+        "correct": 111,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -31,13 +34,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.3297560975609756,
+        "accuracy": 0.33951219512195124,
         "canonical": {
           "num": 1,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 338,
+        "correct": 348,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -47,13 +50,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.11024390243902439,
+        "accuracy": 0.1024390243902439,
         "canonical": {
           "num": 2,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 113,
+        "correct": 105,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -63,13 +66,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.25853658536585367,
+        "accuracy": 0.27707317073170734,
         "canonical": {
           "num": 2,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 265,
+        "correct": 284,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -79,13 +82,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.12292682926829268,
+        "accuracy": 0.11024390243902439,
         "canonical": {
           "num": 3,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 126,
+        "correct": 113,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -95,13 +98,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.2731707317073171,
+        "accuracy": 0.26926829268292685,
         "canonical": {
           "num": 3,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 280,
+        "correct": 276,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -111,13 +114,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.3180487804878049,
+        "accuracy": 0.32,
         "canonical": {
           "num": 1,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 326,
+        "correct": 328,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -127,13 +130,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.20195121951219513,
+        "accuracy": 0.20682926829268292,
         "canonical": {
           "num": 1,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 207,
+        "correct": 212,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -143,13 +146,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.2146341463414634,
+        "accuracy": 0.20585365853658535,
         "canonical": {
           "num": 2,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 220,
+        "correct": 211,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -159,13 +162,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.17560975609756097,
+        "accuracy": 0.17073170731707318,
         "canonical": {
           "num": 2,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 180,
+        "correct": 175,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -175,13 +178,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.19317073170731708,
+        "accuracy": 0.17268292682926828,
         "canonical": {
           "num": 3,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 198,
+        "correct": 177,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -191,13 +194,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.14829268292682926,
+        "accuracy": 0.16097560975609757,
         "canonical": {
           "num": 3,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 152,
+        "correct": 165,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -207,13 +210,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.12878048780487805,
+        "accuracy": 0.13658536585365855,
         "canonical": {
           "num": 4,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 132,
+        "correct": 140,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -223,13 +226,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.13853658536585367,
+        "accuracy": 0.13658536585365855,
         "canonical": {
           "num": 4,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 142,
+        "correct": 140,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -239,13 +242,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.13853658536585367,
+        "accuracy": 0.13463414634146342,
         "canonical": {
           "num": 5,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 142,
+        "correct": 138,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -255,13 +258,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.1611328125,
+        "accuracy": 0.146484375,
         "canonical": {
           "num": 5,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 165,
+        "correct": 150,
         "observed_side_counts": {
           "blue": 1004,
           "red": 20
@@ -271,13 +274,13 @@
         "total": 1024
       },
       {
-        "accuracy": 0.18536585365853658,
+        "accuracy": 0.17170731707317075,
         "canonical": {
           "num": 4,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 190,
+        "correct": 176,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -287,13 +290,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.15609756097560976,
+        "accuracy": 0.16,
         "canonical": {
           "num": 4,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 160,
+        "correct": 164,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -303,13 +306,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.21853658536585366,
+        "accuracy": 0.22048780487804878,
         "canonical": {
           "num": 5,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 224,
+        "correct": 226,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -319,13 +322,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.17560975609756097,
+        "accuracy": 0.18634146341463415,
         "canonical": {
           "num": 5,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 180,
+        "correct": 191,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -338,13 +341,14 @@
   },
   "paths": {
     "config": "config.json",
+    "inspection_samples": "inspection-samples.json",
     "metrics": "metrics.json"
   },
   "progress": {
     "epoch": 20,
     "epochs": 20
   },
-  "run_id": "20260213_205710",
+  "run_id": "20260215_163647",
   "samples": {
     "test": 20499,
     "train": 169115,
@@ -352,5 +356,5 @@
   },
   "schema_version": "1.0",
   "status": "completed",
-  "updated_at": "2026-02-13T21:14:53Z"
+  "updated_at": "2026-02-15T16:54:57Z"
 }

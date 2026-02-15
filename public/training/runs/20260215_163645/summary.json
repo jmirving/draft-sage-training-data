@@ -1,27 +1,30 @@
 {
-  "category": "embedding-ablation-with-champion-eligibility",
-  "created_at": "2026-02-13T20:57:10Z",
+  "category": "weights-role-priors-refresh",
+  "created_at": "2026-02-15T16:36:45Z",
   "dataset": {
     "champion_eligibility": {},
-    "label": "Clean 2025 + Jan 2026"
+    "label": "Clean 2025 + Jan 2026",
+    "role_priors": {
+      "strength": 0.15
+    }
   },
-  "description": "Embedding ablation (priors + eligibility on): Embeddings ablation: league off, team on",
-  "display_name": "Embeddings ablation: league off, team on",
-  "inspection_error": "Inspection bundle pruned on publish.",
-  "inspection_status": "missing",
+  "description": "Feature matrix ablation: league on team off dfbias off roledist on rdbstr 0p15",
+  "display_name": "Feature matrix: league on team off dfbias off roledist on rdbstr 0p15",
+  "inspection_error": null,
+  "inspection_status": "available",
   "metrics": {
-    "accuracy": 0.18805795404653886,
-    "best_val_loss": 3.1342416977164484,
-    "loss": 3.15029799138514,
+    "accuracy": 0.18825308551636666,
+    "best_val_loss": 3.1132602187230733,
+    "loss": 3.1192031310240678,
     "per_slot_accuracy": [
       {
-        "accuracy": 0.11219512195121951,
+        "accuracy": 0.10634146341463414,
         "canonical": {
           "num": 1,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 115,
+        "correct": 109,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -31,13 +34,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.3297560975609756,
+        "accuracy": 0.34243902439024393,
         "canonical": {
           "num": 1,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 338,
+        "correct": 351,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -63,13 +66,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.25853658536585367,
+        "accuracy": 0.2809756097560976,
         "canonical": {
           "num": 2,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 265,
+        "correct": 288,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -79,13 +82,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.12292682926829268,
+        "accuracy": 0.12,
         "canonical": {
           "num": 3,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 126,
+        "correct": 123,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -95,13 +98,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.2731707317073171,
+        "accuracy": 0.2604878048780488,
         "canonical": {
           "num": 3,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 280,
+        "correct": 267,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -111,13 +114,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.3180487804878049,
+        "accuracy": 0.31414634146341464,
         "canonical": {
           "num": 1,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 326,
+        "correct": 322,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -127,13 +130,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.20195121951219513,
+        "accuracy": 0.19414634146341464,
         "canonical": {
           "num": 1,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 207,
+        "correct": 199,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -143,13 +146,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.2146341463414634,
+        "accuracy": 0.1980487804878049,
         "canonical": {
           "num": 2,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 220,
+        "correct": 203,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -159,13 +162,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.17560975609756097,
+        "accuracy": 0.1873170731707317,
         "canonical": {
           "num": 2,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 180,
+        "correct": 192,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -175,13 +178,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.19317073170731708,
+        "accuracy": 0.1648780487804878,
         "canonical": {
           "num": 3,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 198,
+        "correct": 169,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -191,13 +194,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.14829268292682926,
+        "accuracy": 0.16585365853658537,
         "canonical": {
           "num": 3,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 152,
+        "correct": 170,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -207,13 +210,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.12878048780487805,
+        "accuracy": 0.13073170731707318,
         "canonical": {
           "num": 4,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 132,
+        "correct": 134,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -223,13 +226,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.13853658536585367,
+        "accuracy": 0.14146341463414633,
         "canonical": {
           "num": 4,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 142,
+        "correct": 145,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -239,13 +242,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.13853658536585367,
+        "accuracy": 0.1473170731707317,
         "canonical": {
           "num": 5,
           "team": "team_2",
           "type": "ban"
         },
-        "correct": 142,
+        "correct": 151,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -255,13 +258,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.1611328125,
+        "accuracy": 0.154296875,
         "canonical": {
           "num": 5,
           "team": "team_1",
           "type": "ban"
         },
-        "correct": 165,
+        "correct": 158,
         "observed_side_counts": {
           "blue": 1004,
           "red": 20
@@ -271,13 +274,13 @@
         "total": 1024
       },
       {
-        "accuracy": 0.18536585365853658,
+        "accuracy": 0.1902439024390244,
         "canonical": {
           "num": 4,
           "team": "team_2",
           "type": "pick"
         },
-        "correct": 190,
+        "correct": 195,
         "observed_side_counts": {
           "blue": 21,
           "red": 1004
@@ -303,13 +306,13 @@
         "total": 1025
       },
       {
-        "accuracy": 0.21853658536585366,
+        "accuracy": 0.22439024390243903,
         "canonical": {
           "num": 5,
           "team": "team_1",
           "type": "pick"
         },
-        "correct": 224,
+        "correct": 230,
         "observed_side_counts": {
           "blue": 1004,
           "red": 21
@@ -338,13 +341,14 @@
   },
   "paths": {
     "config": "config.json",
+    "inspection_samples": "inspection-samples.json",
     "metrics": "metrics.json"
   },
   "progress": {
     "epoch": 20,
     "epochs": 20
   },
-  "run_id": "20260213_205710",
+  "run_id": "20260215_163645",
   "samples": {
     "test": 20499,
     "train": 169115,
@@ -352,5 +356,5 @@
   },
   "schema_version": "1.0",
   "status": "completed",
-  "updated_at": "2026-02-13T21:14:53Z"
+  "updated_at": "2026-02-15T16:55:06Z"
 }
